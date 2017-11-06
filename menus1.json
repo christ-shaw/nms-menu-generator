@@ -1,0 +1,386 @@
+[{
+        "id": "ztev-main",
+        "parentMenuName": "主页",
+        "iframeUrl": "/ztev8765/main.html",
+        "operation": "ztev-main",
+        "iconClass": "fa fa-home",
+        "childMenuList": []
+    }, {
+        "id": "ztev-device-manage",
+        "parentMenuName": "设备管理",
+        "iframeUrl": "",
+        "operation": "ztev-device-manage",
+        "iconClass": "",
+        "childMenuList": [{
+            "groupMenuName": "",
+            "groupMenuList": [{
+                "id": "ztev-charge-station-manage",
+                "name": "充电站管理",
+                "iframeUrl": "/ztev8765/device/charge-station-manage.html",
+                "operation": "charge-station-manage",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-park-station-manage",
+                "name": "停车场管理",
+                "iframeUrl": "/ztev8765/device/parking-lot-list.html",
+                "operation": "park-station-manage",
+                "iconClass": "fa fa-puzzle-piece"
+            },{
+				"id" : "ztev-vehicle-management",
+				"name": "车辆管理",
+				"iframeUrl" : "/ztev8765/device/vehicle.html",
+				"operation": "vehicle-management",
+				"iconClass": "fa fa-puzzle-piece"
+			}, {
+                "id": "ztev-device-upgrade",
+                "name": "设备远程升级",
+                "iframeUrl": "/lzy/views/deviceRemoteUpgrade.html",
+                "operation": "ztev-device-upgrade",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-device-downposition",
+                "name": "车位信息配置",
+                "iframeUrl": "/lzy/views/carPositionInfoConfigure.html",
+                "operation": "ztev-device-downposition",
+                "iconClass": "fa fa-puzzle-piece"
+            },{
+			"id" : "ztev-device-health",
+			"name": "健康管理",
+			"iframeUrl" : "/ztev8765/device/health.html",
+			"operation": "device-health",
+			"iconClass": "fa fa-puzzle-piece"
+			}
+			]
+        }]
+    }, {
+        "id": "ztev-user",
+        "parentMenuName": "用户管理",
+        "iframeUrl": "",
+        "operation": "ztev-user",
+        "iconClass": "",
+        "childMenuList": [{
+            "groupMenuName": "",
+            "groupMenuList": [{
+                "id": "ztev-driverpersonal",
+                "name": "个人司机账号管理",
+                "iframeUrl": "/ztev8099/views/user/driverManage.html",
+                "operation": "ztev-driverpersonal",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-enterprise",
+                "name": "企业账号管理",
+                "iframeUrl": "/ztev8099/views/enterprise/enterpriseManage.html",
+                "operation": "ztev-enterprise",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-frozenUserMgt",
+                "name": "冻结账号管理",
+                "iframeUrl": "/ztev8099/views/user/forzenUserList.html",
+                "operation": "ztev-frozenUserMgt",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-blackUserList",
+                "name": "黑名单管理",
+                "iframeUrl": "/ztev8099/views/user/blackListUser.html",
+                "operation": "ztev-blackUserList",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-smaccountMgt",
+                "name": "企业管理员管理",
+                "iframeUrl": "/ztev8099/views/appuser/enterpriseManagerList.html",
+                "operation": "ztev-smaccountMgt",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-enterpriseManagerMgt",
+                "name": "场站管理员管理",
+                "iframeUrl": "/ztev8099/views/appuser/smaccountList.html",
+                "operation": "ztev-enterpriseManagerMgt",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-PositionSubscribeMgt",
+                "name": "车位预约管理",
+                "iframeUrl": "/ztev8827/subscribePositionList.html",
+                "operation": "ztev-PositionSubscribeMgt",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-InvoiceMgt",
+                "name": "发票管理",
+                "iframeUrl": "/ztev8827/invoiceMgt.html",
+                "operation": "ztev-InvoiceMgt",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-PrinterConfigureMgt",
+                "name": "打印机配置管理",
+                "iframeUrl": "/ztev8827/printerConfigure.html",
+                "operation": "ztev-PrinterConfigureMgt",
+                "iconClass": "fa fa-puzzle-piece"
+            }]
+        }]
+    }, {
+        "id": "ztev-card-mgt",
+        "parentMenuName": "发卡计费",
+        "iframeUrl": "",
+        "operation": "ztev-card-mgt",
+        "iconClass": "",
+        "childMenuList": [{
+            "groupMenuName": "",
+            "groupMenuList": [{
+                    "id": "ztev-card",
+                    "name": "发卡用户查询",
+                    "iframeUrl": "/ztev8085/card",
+                    "operation": "ztev-card",
+                    "iconClass": "fa fa-puzzle-piece"
+                }, {
+                    "id": "queryLossCard",
+                    "name": "补卡",
+                    "iframeUrl": "/ztev8085/queryLossCard",
+                    "operation": "queryLossCard",
+                    "iconClass": "fa fa-puzzle-piece"
+                }, {
+                    "id": "ztev-unsealCard",
+                    "name": "解除挂失",
+                    "iframeUrl": "/ztev8085/unsealCard",
+                    "operation": "ztev-unsealCard",
+                    "iconClass": "fa fa-puzzle-piece"
+                }, {
+                    "id": "ztev-personalcreate",
+                    "name": "个人发卡",
+                    "iframeUrl": "/ztev8085/personalcreate",
+                    "operation": "ztev-personalcreate",
+                    "iconClass": "fa fa-puzzle-piece"
+                }, {
+                    "id": "ztev-businessCard",
+                    "name": "企业发卡",
+                    "iframeUrl": "/ztev8085/businessCard",
+                    "operation": "ztev-businessCard",
+                    "iconClass": "fa fa-puzzle-piece"
+                },
+                {
+                    "id": "ztev-cardrecover",
+                    "name": "卡片回收",
+                    "iframeUrl": "/ztev8085/cardrecover",
+                    "operation": "ztev-cardrecover",
+                    "iconClass": "fa fa-puzzle-piece"
+                }, {
+                    "id": "ztev-plugindownload",
+                    "name": "卡片插件下载",
+                    "iframeUrl": "/ztev8085/plugindownload",
+                    "operation": "ztev-plugindownload",
+                    "iconClass": "fa fa-puzzle-piece"
+                },{
+					"id": "ztev-configBilling",
+					"name": "电量计费模板配置",
+					"iframeUrl": "/web-charging/configBilling.html",
+					"operation": "ztev-configBilling",
+					"iconClass": "fa fa-puzzle-piece"
+				}, {
+					"id": "ztev-powerBilling",
+					"name": "电费计费模板",
+					"iframeUrl": "/web-charging/powerBilling.html",
+					"operation": "ztev-powerBilling",
+					"iconClass": "fa fa-puzzle-piece"
+				}, {
+					"id": "ztev-serviceBilling",
+					"name": "服务费计费模板",
+					"iframeUrl": "/web-charging/serviceBilling.html",
+					"operation": "ztev-serviceBilling",
+					"iconClass": "fa fa-puzzle-piece"
+				}
+            ]
+        }]
+    }, {
+        "id": "ztev-performance-mgt",
+        "parentMenuName": "告警性能",
+        "iframeUrl": "",
+        "operation": "ztev-performance-mgt",
+        "iconClass": "",
+        "childMenuList": [{
+            "groupMenuName": "",
+            "groupMenuList": [{
+                "id": "ztev-performance-ret",
+                "name": "性能查询",
+                "iframeUrl": "/ztev8085/performance",
+                "operation": "ztev-performance-ret",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-currentAlarm",
+                "name": "当前告警",
+                "iframeUrl": "/web-alarm/currentAlarm.html",
+                "operation": "ztev-currentAlarm",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-historyAlarm",
+                "name": "历史告警",
+                "iframeUrl": "/web-alarm/historyAlarm.html",
+                "operation": "ztev-historyAlarm",
+                "iconClass": "fa fa-puzzle-piece"
+            }]
+		}]
+    }, {
+        "id": "ztev-log-mgt",
+        "parentMenuName": "日志管理",
+        "iframeUrl": "",
+        "operation": "ztev-log-mgt",
+        "iconClass": "",
+        "childMenuList": [{
+            "groupMenuName": "",
+            "groupMenuList": [{
+                "id": "ztev-parkinglog",
+                "name": "停车充电日志",
+                "iframeUrl": "/ztev8099/views/log/parkingChargeLog.html",
+                "operation": "ztev-parkinglog",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-chargelog",
+                "name": "充电日志",
+                "iframeUrl": "/ztev8099/views/log/chargeLog.html",
+                "operation": "ztev-chargelog",
+                "iconClass": "fa fa-puzzle-piece"
+            }]
+        }]
+    },{
+        "id": "ztev-assistment-manager-mgt",
+        "parentMenuName": "辅助管理",
+        "iframeUrl": "",
+        "operation": "ztev-assistment-manager-mgt",
+        "iconClass": "",
+        "childMenuList": [{
+            "groupMenuName": "",
+            "groupMenuList": [{
+                "id": "ztev-advertise-ret",
+                "name": "广告管理",
+                "iframeUrl": "/ztev8085/advertise",
+                "operation": "ztev-advertise-ret",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-charge_info-ret",
+                "name": "充电任务审计",
+                "iframeUrl": "/ztev8085/charge_info",
+                "operation": "ztev-charge_info-ret",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-cardNoVin-ret",
+                "name": "一卡一车管理",
+                "iframeUrl": "/ztev8085/cardNoVin",
+                "operation": "ztev-cardNoVin-ret",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-cardDiffVin-ret",
+                "name": "车卡记录查询",
+                "iframeUrl": "/ztev8085/cardDiffVin",
+                "operation": "ztev-cardDiffVin-ret",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-sim_manage",
+                "name": "sim卡管理",
+                "iframeUrl": "/ztev8099/views/siminfo/sim_manage.html",
+                "operation": "ztev-sim_manage",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-transaction_manage",
+                "name": "交易管理",
+                "iframeUrl": "/ztev8099/views/drivertraderecord/transaction_manage.html",
+                "operation": "ztev-transaction_manage",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-exit_entry_info",
+                "name": "停车场车辆出入信息",
+                "iframeUrl": "/ztev8099/views/reports/exit_entry_info.html",
+                "operation": "ztev-exit_entry_info",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-lane_record",
+                "name": "通道原始记录",
+                "iframeUrl": "/ztev8099/views/reports/lane_record.html",
+                "operation": "ztev-lane_record",
+                "iconClass": "fa fa-puzzle-piece"
+            }, {
+                "id": "ztev-parking_vehicle_search",
+                "name": "在场车辆查询",
+                "iframeUrl": "/ztev8099/views/reports/parking_vehicle_search.html",
+                "operation": "ztev-parking_vehicle_search",
+                "iconClass": "fa fa-puzzle-piece"
+            },{
+                "id": "ztev-user-management",
+                "name": "权限管理",
+                "iframeUrl": "/user",
+                "operation": "ztev-user-management",
+                "iconClass": "fa fa-puzzle-piece"
+            },{
+                "id": "ztev-moments",
+                "name": "车友圈",
+                "iframeUrl": "/ztev8649/manage",
+                "operation": "ztev-moments",
+                "iconClass": "fa fa-puzzle-piece"
+            },{
+                "id": "ztev-message-push",
+                "name": "消息推送配置",
+                "iframeUrl": "/messagepush",
+                "operation": "ztev-message-push",
+                "iconClass": "fa fa-puzzle-piece"
+            }]
+        }]
+    },{
+		"id": "ztev-statistics-report",
+		"parentMenuName" : "运营管理",
+		"iframeUrl" : "",
+		"operation" : "ztev-statistics-report",
+		"iconClass" : "",
+		"childMenuList" : 
+		[{
+			"groupMenuName" : "西安城投运营管理",
+			"groupMenuList" : 
+			[{
+				"id" : "statistics-xact-daily",
+				"name": "日报查询",
+				"iframeUrl" : "/lzy/statistics/xact/views/dailyReport.html",
+				"operation": "statistics-xact-daily",
+				"iconClass": "fa fa-puzzle-piece"
+			},{
+				"id" : "statistics-xact-monthly",
+				"name": "月报查询",
+				"iframeUrl" : "/lzy/statistics/xact/views/monthlyReport.html",
+				"operation": "statistics-xact-monthly",
+				"iconClass": "fa fa-puzzle-piece"
+			},{
+				"id" : "statistics-xact-accumulate",
+				"name": "累计报表查询",
+				"iframeUrl" : "/lzy/statistics/xact/views/accumulatedReport.html",
+				"operation": "statistics-xact-accumulate",
+				"iconClass": "fa fa-puzzle-piece"
+			},{
+				"id" : "statistics-xact-company-daily",
+				"name": "公司生产日报",
+				"iframeUrl" : "/lzy/statistics/xact/views/companyProductionDailyReport.html",
+				"operation": "statistics-xact-company-daily",
+				"iconClass": "fa fa-puzzle-piece"
+			},{
+				"id" : "statistics-xact-company-monthly",
+				"name": "公司生产月报",
+				"iframeUrl" : "/lzy/statistics/xact/views/companyProductionMonthlyReport.html",
+				"operation": "statistics-xact-company-monthly",
+				"iconClass": "fa fa-puzzle-piece"
+			},{
+				"id" : "statistics-xact-company-accumulate",
+				"name": "公司生产累加报",
+				"iframeUrl" : "/lzy/statistics/xact/views/companyProductionAccumulated.html",
+				"operation": "statistics-xact-company-accumulate",
+				"iconClass": "fa fa-puzzle-piece"
+			},{
+				"id": "divider"
+			},{
+				"id" : "statistics-xact-report-config",
+				"name": "报表配置信息",
+				"iframeUrl" : "/lzy/statistics/xact/views/reportConfigure.html",
+				"operation": "statistics-xact-report-config",
+				"iconClass": "fa fa-puzzle-piece"
+			},{
+				"id" : "statistics-xact-charge-record",
+				"name": "充电记录表",
+				"iframeUrl" : "/lzy/statistics/xact/views/chargeRecord.html",
+				"operation": "statistics-xact-charge-record",
+				"iconClass": "fa fa-puzzle-piece"
+			}]
+		}]
+	}
+]
